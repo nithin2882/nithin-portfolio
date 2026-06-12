@@ -1,16 +1,7 @@
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const techStack = [
-    "PySpark",
-    "Kafka",
-    "Airflow",
-    "AWS",
-    "SQL",
-    "Databricks",
-    "Python",
-    "Docker",
-  ];
+  
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-transparent px-6 pt-24">
@@ -61,7 +52,7 @@ Pipelines.
             {/* Badges */}
             <div className="mt-8 flex flex-wrap gap-3">
               <span className="px-4 py-2 rounded-full bg-green-500/10 text-green-400 border border-green-500/20">
-                AWS Certified Data Engineer
+                AWS Certified Data Engineer 
               </span>
 
               <span className="px-4 py-2 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20">
@@ -97,23 +88,28 @@ Pipelines.
 
           {/* Right Side */}
           <div className="hidden lg:flex justify-center">
-            <div className="bg-slate-900 border border-slate-700 rounded-3xl p-8 w-[350px] shadow-xl">
-              <h3 className="text-xl font-bold mb-6 text-white">
-                Core Technologies
-              </h3>
+  <div className="relative">
 
-              <div className="flex flex-wrap gap-3">
-                {techStack.map((tech) => (
-                  <span
-                    key={tech}
-                    className="px-4 py-2 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
+    <img
+      src="/images/profile/nithin1.png"
+      alt="Nithin Rajan"
+      className="
+        w-[380px]
+        h-[450px]
+        object-cover
+        rounded-3xl
+        border
+        border-slate-700
+        shadow-2xl
+      "
+    />
+
+    {/* Floating AWS Badge */}
+
+    
+
+  </div>
+</div>
 
         </div>
       </div>
