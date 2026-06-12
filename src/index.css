@@ -23,3 +23,53 @@ body {
 .font-heading {
   font-family: 'Playfair Display', serif;
 }
+
+@keyframes floatGlow {
+  0%,100% {
+    transform: translate(0,0);
+  }
+
+  50% {
+    transform: translate(40px,-40px);
+  }
+}
+
+.glow-1 {
+  animation: floatGlow 14s ease-in-out infinite;
+}
+
+.glow-2 {
+  animation: floatGlow 18s ease-in-out infinite reverse;
+}
+
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #06b6d4,
+    #22d3ee
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-card {
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+
+  box-shadow:
+    0 30px 60px rgba(0,0,0,.35);
+}
+
+.timeline-card {
+  transition: all 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateX(6px);
+}

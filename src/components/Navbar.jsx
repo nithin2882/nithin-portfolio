@@ -7,10 +7,10 @@ const Navbar = () => {
         className="
           w-[95%]
           max-w-7xl
-          bg-slate-900/70
+          glass-premium
           backdrop-blur-md
           border
-          border-slate-700
+          glass-premium
           rounded-full
           px-8
           py-4

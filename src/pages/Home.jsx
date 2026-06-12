@@ -7,19 +7,26 @@ import Skills from "../components/Skills";
 import Certifications from "../components/Certifications";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Background from "../components/Background";
+import ScrollProgress from "../components/ScrollProgress";
+
 
 const Home = () => {
   return (
     <>
+      <ScrollProgress />
+      <Background />
       <Navbar />
       <Hero />
       <About />
+      
       <Experience />
       <Projects />
       <Skills />
       <Certifications />
       <Contact />
       <Footer />
+      
     </>
   );
 };

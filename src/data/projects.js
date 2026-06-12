@@ -3,8 +3,10 @@ export const projects = [
     id: 1,
     title: "AWS Fault-Tolerant Data Ingestion Pipeline",
 
+    impact: "AWS • ETL • CLOUD",
+
     description:
-      "Designed and implemented a cloud-native data ingestion pipeline that reads CSV files from Amazon S3, validates records using Python and Pandas, loads data into Amazon RDS MySQL, and routes failed datasets to an S3 fallback zone for recovery.",
+      "Designed and implemented a cloud-native ingestion pipeline that validates CSV datasets from Amazon S3, loads clean records into Amazon RDS MySQL, and routes failures to an S3 fallback zone for recovery.",
 
     image:
       "/images/projects/aws-fault-tolerant-pipeline/architecture.png",
@@ -14,10 +16,10 @@ export const projects = [
 
     tech: [
       "AWS S3",
-      "RDS MySQL",
       "Python",
       "Pandas",
-      "Docker"
-    ]
-  }
+      "RDS",
+      "Docker",
+    ],
+  },
 ];

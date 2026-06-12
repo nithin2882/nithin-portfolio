@@ -4,7 +4,7 @@ const Certifications = () => {
   return (
     <section
       id="certifications"
-      className="py-32 px-6 bg-[#050816]"
+      className="py-32 px-6 bg-transparent"
     >
       <div className="max-w-6xl mx-auto">
 

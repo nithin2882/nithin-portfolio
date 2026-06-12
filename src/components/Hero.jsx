@@ -13,7 +13,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="min-h-[85vh] flex items-center bg-[#050816] px-6">
+    <section className="min-h-screen flex items-center justify-center bg-transparent px-6 pt-24">
       <div className="max-w-7xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
 
@@ -25,7 +25,7 @@ const Hero = () => {
   transition={{ duration: 0.5 }}
   className="text-cyan-400 uppercase tracking-widest mb-6 text-sm"
 >
-  DATA ENGINEER @ TCS
+  DATA SYSTEMS & AI ENGINEER @ TCS
 </motion.p>
 
 <motion.h1
@@ -36,9 +36,11 @@ const Hero = () => {
 >
   Building Scalable
 <br />
-Data Pipelines &
+<span className="gradient-text">
+  Data & AI
+</span>
 <br />
-Streaming Systems.
+Pipelines.
 </motion.h1>
 
 <motion.div
@@ -47,9 +49,7 @@ Streaming Systems.
   transition={{ delay: 0.4 }}
   className="mt-8 max-w-2xl"
 >
-  <h2 className="font-heading text-white text-2xl">
-    DATA ENGINEER @ TCS
-  </h2>
+  
 
   <p className="text-slate-400 mt-4 text-lg leading-8">
     AWS Certified Data Engineer with 2+ years of experience

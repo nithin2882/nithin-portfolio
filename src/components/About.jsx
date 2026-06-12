@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-32 px-6 bg-[#0b1120]"
+      className="py-32 px-6 bg-transparent"
     >
       <div className="max-w-6xl mx-auto">
 
