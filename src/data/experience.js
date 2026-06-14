@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    year: "Jul 2023 - Present",
+    year: "May 2024 - Present",
     role: "Data Engineer",
     company: "Tata Consultancy Services",
     current: true,
@@ -17,8 +17,8 @@ export const experiences = [
     role: "Engineering Intern",
     company: "Proserv",
     points: [
-      "Supported technical operations and engineering workflows.",
-      "Gained hands-on exposure to industrial systems and project execution."
+      "Developed and submitted firm and budgetary proposals for Wellhead Control Panels, supporting project bidding activities and customer solution design",
+      "Managed project engineering deliverables, technical documentation, and stakeholder coordination throughout the project lifecycle"
     ]
   },
 
@@ -27,8 +27,8 @@ export const experiences = [
     role: "Web Development Intern",
     company: "Oasis Infobyte",
     points: [
-      "Developed responsive web pages using HTML, CSS, and JavaScript.",
-      "Implemented modern UI components and frontend best practices."
+      "Engineered a full-featured website for a non-profit organization using React, enhancing its digital presence and community outreach",
+      "Integrated end-to-end payment processing, enabling seamless and secure donation transactions."
     ]
   },
 
@@ -37,8 +37,8 @@ export const experiences = [
     role: "Full Stack Developer Intern",
     company: "ShapeAI",
     points: [
-      "Built full-stack web applications using the MERN stack.",
-      "Developed APIs and frontend user interfaces."
+      "Designed and developed 3+ full-stack web applications using the MERN stack((MongoDB, Express.js, React, Node.js), implementing scalable frontend components and backend services",
+      "Developed and integrated frontend and backend modules for web applications, supporting complete user workflows and data management."
     ]
   },
 
@@ -47,8 +47,9 @@ export const experiences = [
     role: "Robotics Intern",
     company: "SPACE",
     points: [
-      "Participated in robotics and automation projects.",
-      "Learned fundamentals of robotics systems."
+      "Developed an Autonomous Lane Detection Robot using Raspberry Pi, OpenCV, and Python for real-time lane tracking and navigation.",
+      "Implemented image processing techniques including grayscale conversion, edge detection, and lane position analysis.",
+      "Integrated motor control and ultrasonic sensors to enable autonomous movement and obstacle detection."
     ]
   }
 ];

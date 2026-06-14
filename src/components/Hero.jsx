@@ -16,7 +16,7 @@ const Hero = () => {
   transition={{ duration: 0.5 }}
   className="text-cyan-400 uppercase tracking-widest mb-6 text-sm"
 >
-  DATA SYSTEMS & AI ENGINEER @ TCS
+  DATA SYSTEMS & AI ENGINEER 
 </motion.p>
 
 <motion.h1
