@@ -91,7 +91,7 @@ Pipelines.
   <div className="relative">
 
     <img
-      src="/images/profile/nithin1.png"
+      src={`${import.meta.env.BASE_URL}images/profile/nithin1.png`}
       alt="Nithin Rajan"
       className="
         w-[380px]

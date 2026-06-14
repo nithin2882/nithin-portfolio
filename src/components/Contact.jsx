@@ -26,7 +26,7 @@ const Contact = () => {
         <div className="flex flex-wrap justify-center gap-6">
 
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:nithinrajan.nagarajan@gmail.com"
             className="flex items-center gap-3 bg-slate-900 border border-slate-700 px-6 py-4 rounded-xl hover:border-cyan-500 transition"
           >
             <FaEnvelope />
