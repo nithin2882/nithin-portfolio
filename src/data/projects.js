@@ -6,7 +6,7 @@ export const projects = [
     description:
       "Designed and implemented a cloud-native ingestion pipeline that validates CSV datasets from Amazon S3, loads clean records into Amazon RDS MySQL, and routes failures to an S3 fallback zone for recovery.",
     image:
-      "images/projects/aws-fault-tolerant-data-ingestion-pipeline/architecture.png",
+      "images/projects/aws-fault-tolerant-pipeline/architecture.png",
     github:
       "https://github.com/nithin2882/s3-rds-glue-ingestion",
     tech: [
