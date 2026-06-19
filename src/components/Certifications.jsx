@@ -42,7 +42,7 @@ const Certifications = () => {
             <div className="p-8 flex items-center justify-center bg-slate-900/40">
 
               <img
-                src="/public/images/certifications/aws-data-engineer-associate.png"
+                src={`${import.meta.env.BASE_URL}images/certifications/aws-data-engineer-associate.png`}
                 alt="AWS Certified Data Engineer Associate"
                 className="max-h-[280px] object-contain"
               />

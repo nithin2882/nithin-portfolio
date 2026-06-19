@@ -55,7 +55,7 @@ const Projects = () => {
                 "
               >
                 <img
-                  src={project.image}
+                  src={`${import.meta.env.BASE_URL}${project.image}`}
                   alt={project.title}
                   className="
                     w-full
